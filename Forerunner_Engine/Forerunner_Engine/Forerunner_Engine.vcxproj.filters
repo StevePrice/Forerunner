@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{15ae60d6-9984-434c-b6da-ba0672ef3c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{9545be7b-fa09-424f-80eb-9f9450e9d330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data_Structures">
+      <UniqueIdentifier>{8fac4a9f-e632-4cfb-b61b-304459020d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{7f1afefd-d22e-47a7-8c38-dce12f7df15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{929b09d7-faef-4b5f-929c-2391909e1e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data_Structures">
+      <UniqueIdentifier>{c2042dfe-6d64-4594-ae45-03a449c9c6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File_IO">
+      <UniqueIdentifier>{89a282a0-bc48-4bd9-89c8-0e58c2a41eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\File_IO">
+      <UniqueIdentifier>{942beb39-c54b-4644-bae8-f65262998bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32_Code">
+      <UniqueIdentifier>{97dc6a5b-9bae-4a62-964e-0e2ad5767615}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
