@@ -40,5 +40,51 @@
     <Filter Include="Source Files\Win32_Code">
       <UniqueIdentifier>{97dc6a5b-9bae-4a62-964e-0e2ad5767615}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Cameras">
+      <UniqueIdentifier>{db07de51-adf1-4279-b723-5fa3f902034e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cameras">
+      <UniqueIdentifier>{9957c5c6-a33e-4f6b-b734-fbd48fc29368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animator">
+      <UniqueIdentifier>{b7614344-ffcf-40a1-9070-553ab8e10133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animator">
+      <UniqueIdentifier>{e80dc188-3874-4866-804c-5416aec16408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HLSL Base">
+      <UniqueIdentifier>{67989f1f-e912-4211-a028-57636cea8bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{c2951940-af47-438c-ac19-472558dc0134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{154593d9-d42e-4dd5-bf97-b977f4fd7579}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files\Win32_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
