@@ -13,47 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Rendering">
-      <UniqueIdentifier>{15ae60d6-9984-434c-b6da-ba0672ef3c80}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Objects">
-      <UniqueIdentifier>{9545be7b-fa09-424f-80eb-9f9450e9d330}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Data_Structures">
       <UniqueIdentifier>{8fac4a9f-e632-4cfb-b61b-304459020d99}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Rendering">
-      <UniqueIdentifier>{7f1afefd-d22e-47a7-8c38-dce12f7df15d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Objects">
-      <UniqueIdentifier>{929b09d7-faef-4b5f-929c-2391909e1e3a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Data_Structures">
       <UniqueIdentifier>{c2042dfe-6d64-4594-ae45-03a449c9c6eb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\File_IO">
-      <UniqueIdentifier>{89a282a0-bc48-4bd9-89c8-0e58c2a41eb8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\File_IO">
-      <UniqueIdentifier>{942beb39-c54b-4644-bae8-f65262998bdb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Win32_Code">
-      <UniqueIdentifier>{97dc6a5b-9bae-4a62-964e-0e2ad5767615}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Cameras">
-      <UniqueIdentifier>{db07de51-adf1-4279-b723-5fa3f902034e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Cameras">
-      <UniqueIdentifier>{9957c5c6-a33e-4f6b-b734-fbd48fc29368}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Animator">
-      <UniqueIdentifier>{b7614344-ffcf-40a1-9070-553ab8e10133}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Animator">
-      <UniqueIdentifier>{e80dc188-3874-4866-804c-5416aec16408}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\HLSL Base">
-      <UniqueIdentifier>{67989f1f-e912-4211-a028-57636cea8bbc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Physics">
       <UniqueIdentifier>{c2951940-af47-438c-ac19-472558dc0134}</UniqueIdentifier>
@@ -61,36 +25,129 @@
     <Filter Include="Source Files\Physics">
       <UniqueIdentifier>{154593d9-d42e-4dd5-bf97-b977f4fd7579}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Renderers">
+      <UniqueIdentifier>{7f1afefd-d22e-47a7-8c38-dce12f7df15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{15ae60d6-9984-434c-b6da-ba0672ef3c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\DirectX">
+      <UniqueIdentifier>{40def37c-9aeb-44d7-bed1-b0477b9ce35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\DirectX">
+      <UniqueIdentifier>{13ddc9f5-7075-4f7b-813c-c45732f31739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\DirectX\HLSL">
+      <UniqueIdentifier>{67989f1f-e912-4211-a028-57636cea8bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Vulkan">
+      <UniqueIdentifier>{0d2bd7a2-e49f-4e1d-899b-0ec3a8e15772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Vulkan\GLSL">
+      <UniqueIdentifier>{92628105-9253-4667-9d64-e71cad2e65c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\DirectX\Pipeline">
+      <UniqueIdentifier>{05034539-9fea-4bf3-a563-26cbdda609b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Vulkan\Pipeline">
+      <UniqueIdentifier>{b35577ac-94f2-4d68-b91f-72294aa1c144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\DirectX\File_IO">
+      <UniqueIdentifier>{47f42c26-cf64-4c89-8b3e-acac3fd4ae22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\DirectX\HLSL">
+      <UniqueIdentifier>{db20a59d-7a4b-47e9-91c5-19b4b071167f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\DirectX\Win32_Code">
+      <UniqueIdentifier>{97dc6a5b-9bae-4a62-964e-0e2ad5767615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Timer">
+      <UniqueIdentifier>{b42730ec-8651-42b5-bd15-fb99b5b5f425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\DirectX\Cameras">
+      <UniqueIdentifier>{912993a0-8f2e-4ead-b40e-b0bdddaf99dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\DirectX\Animator">
+      <UniqueIdentifier>{07e2e806-1f52-4407-bbb4-ba2b2c8cc403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Vulkan\Linux_Code">
+      <UniqueIdentifier>{f8895612-f252-4197-9af2-0c044ead28ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\DirectX\Objects">
+      <UniqueIdentifier>{0177be1d-aed0-4b54-985d-48377f601e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Vulkan\File_IO">
+      <UniqueIdentifier>{29513f62-85eb-46da-ac72-27ed9b12eea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Vulkan\Cameras">
+      <UniqueIdentifier>{31b1d13f-4187-4eb4-9e88-2721d18397b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Vulkan\Animator">
+      <UniqueIdentifier>{2de416ae-3db9-4bce-b461-f0250dbcaf5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Vulkan\Objects">
+      <UniqueIdentifier>{c463ac8e-f817-4add-9cc6-d64f0aa07b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithms">
+      <UniqueIdentifier>{161286e3-e76e-4a39-b0a8-1a95b6a76a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\DirectX\File_IO">
+      <UniqueIdentifier>{bcae92e1-5c27-479a-b415-8423afd15a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\DirectX\Cameras">
+      <UniqueIdentifier>{facaf574-2f4e-4af8-9edc-74af53b8c3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\DirectX\Animator">
+      <UniqueIdentifier>{77bfa528-b469-40eb-a39e-cf8b6c577e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\DirectX\Objects">
+      <UniqueIdentifier>{2bf76eb7-c05a-4816-8cd0-0684742831b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\DirectX\Pipeline">
+      <UniqueIdentifier>{7669a7f8-f86b-45f9-b6fa-f1e30c3d6232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\Vulkan">
+      <UniqueIdentifier>{52599eba-d40f-4a38-aead-e8710046820d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\Timer">
+      <UniqueIdentifier>{f026b238-9fde-4bff-b7de-5788d17cc4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\Vulkan\GLSL">
+      <UniqueIdentifier>{cc1e398f-9ea8-48e7-983f-2294f3bccbd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\Vulkan\File_IO">
+      <UniqueIdentifier>{522e7456-ee8d-42ac-8333-112509bc3522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\Vulkan\Cameras">
+      <UniqueIdentifier>{a5daad15-e3f9-43fc-9b70-0ba90680fa71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\Vulkan\Animator">
+      <UniqueIdentifier>{e3ba31e4-83f9-45a3-b96b-79db590c7df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\Vulkan\Objects">
+      <UniqueIdentifier>{fa2a8119-a73d-4fab-a830-6ec04e02ff3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\Vulkan\Pipeline">
+      <UniqueIdentifier>{5d848d02-a4f6-43af-a267-61cdeb966544}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMain.cpp">
-      <Filter>Source Files\Win32_Code</Filter>
-    </ClCompile>
-    <ClCompile Include="Model.cpp">
-      <Filter>Source Files\Objects</Filter>
-    </ClCompile>
-    <ClCompile Include="Camera.cpp">
-      <Filter>Source Files\Cameras</Filter>
+      <Filter>Source Files\Renderer\DirectX\Win32_Code</Filter>
     </ClCompile>
     <ClCompile Include="DirectX_Rendering_Base.cpp">
-      <Filter>Source Files\Rendering</Filter>
+      <Filter>Source Files\Renderer\DirectX\Pipeline</Filter>
     </ClCompile>
     <ClCompile Include="Timer.cpp">
-      <Filter>Source Files\Rendering</Filter>
+      <Filter>Source Files\Renderer\Timer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Model.h">
-      <Filter>Header Files\Objects</Filter>
-    </ClInclude>
-    <ClInclude Include="Camera.h">
-      <Filter>Header Files\Cameras</Filter>
-    </ClInclude>
     <ClInclude Include="DirectX_Rendering_Base.h">
-      <Filter>Header Files\Rendering</Filter>
+      <Filter>Header Files\Renderers\DirectX\Pipeline</Filter>
     </ClInclude>
     <ClInclude Include="Timer.h">
-      <Filter>Header Files\Rendering</Filter>
+      <Filter>Header Files\Renderers\Timer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

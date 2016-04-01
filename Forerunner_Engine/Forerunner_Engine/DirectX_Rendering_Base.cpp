@@ -250,7 +250,7 @@ bool DirectX_Rendering_Base::InitializeMainWindow()
 	windowClass.lpszMenuName = nullptr; // Menu Name
 	windowClass.lpszClassName = "Forerunner Engine"; // Class Name
 
-													 // Register Class and Check If True
+	// Register Class and Check If True
 	if (!RegisterClassEx(&windowClass))
 		return E_FAIL;
 
@@ -274,7 +274,6 @@ bool DirectX_Rendering_Base::InitializeMainWindow()
 bool DirectX_Rendering_Base::InitializeDirect3D()
 {
 	// Create Device and Context
-	
 	D3D_FEATURE_LEVEL featureLevel;
 	HRESULT hResultDevice = D3D11CreateDevice(0, main3DDriverType, 0, 0, 0, 0, D3D11_SDK_VERSION, &main3DDevice, &featureLevel, &main3DDeviceContext);
 
