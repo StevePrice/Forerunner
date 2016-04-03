@@ -18,7 +18,7 @@ Description: DirectX Rendering Header File for Forerunner Engine
 class DirectX_Rendering_Base
 {
 public:
-	// Constructor and De constructor
+	// Constructor and Deconstructor
 	DirectX_Rendering_Base(HINSTANCE hInstance);
 	virtual ~DirectX_Rendering_Base();
 
@@ -29,15 +29,22 @@ public:
 	virtual bool InitateWindow();
 	virtual void ResizeWindow();
 	virtual LRESULT HandleMessages(HWND hWindow, UINT currentMessage, WPARAM wParam, LPARAM lParam);
+
+	// Update and Render Function
 	virtual void Update(float deltaTime) = 0;
 	virtual void Render() = 0;
 
-	// Mouse Handling Events. 
+	// Win32 Event Handling Functions
 	virtual void OnLeftMouseUp(WPARAM currentState, int xPosition, int yPosition){}
 	virtual void OnLeftMouseDown(WPARAM currentState, int xPosition, int yPosition){}
 	virtual void OnRightMouseUp(WPARAM currentState, int xPosition, int yPosition){}
 	virtual void OnRightMouseDown(WPARAM currentState, int xPosition, int yPosition){}
 	virtual void OnMouseDoubleClick(WPARAM currentState, int xPosition, int yPosition){}
+
+	// Context Information Functions
+	HINSTANCE sceneHandleInstance() const; 
+	HWND sceneHandleWindow() const;
+	int screenAspectRatio() const;
 
 
 protected:
@@ -66,13 +73,13 @@ protected:
 	D3D_DRIVER_TYPE main3DDriverType;
 
 	// Interface and Direct3D Devices
-	ID3D11Device* main3DDevice;
-	ID3D11DeviceContext* main3DDeviceContext;
-	IDXGISwapChain* mainSwapChain;
-	ID3D11Texture2D* mainDepthStencilBuffer;
-	ID3D11RenderTargetView* mainRenderTargetView;
-	ID3D11DepthStencilView* mainDepthStencilView;
-	D3D11_VIEWPORT mainViewPort;
+	ID3D11Device* main3DDevice;								// Direct3D Device
+	ID3D11DeviceContext* main3DDeviceContext;				// Device Context 	
+	IDXGISwapChain* mainSwapChain;							// Main Swap Chain
+	ID3D11Texture2D* mainDepthStencilBuffer;				// Stencil Buffer
+	ID3D11RenderTargetView* mainRenderTargetView;			// Render Target
+	ID3D11DepthStencilView* mainDepthStencilView;			// Stencil View
+	D3D11_VIEWPORT mainViewPort;							// Primary View Port
 
 
 };
