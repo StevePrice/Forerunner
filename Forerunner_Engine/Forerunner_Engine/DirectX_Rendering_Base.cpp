@@ -303,7 +303,7 @@ bool DirectX_Rendering_Base::InitializeDirect3D()
 	swapDesc.Flags = 0;
 
 	IDXGIDevice* dxgiDevice = 0;
-	hResultDevice(main3DDevice->QueryInterface(__uuidof(IDXGIDevice), (void**)&dxgiDevice));
+	// hResultDevice(main3DDevice->QueryInterface(__uuidof(IDXGIDevice), (void**)&dxgiDevice));
 
 
 

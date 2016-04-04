@@ -109,12 +109,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DirectX_Renderer.cpp" />
     <ClCompile Include="DirectX_Rendering_Base.cpp" />
     <ClCompile Include="Timer.cpp" />
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DirectX_Renderer.h" />
     <ClInclude Include="DirectX_Rendering_Base.h" />
+    <ClInclude Include="Header_File_Linker.h" />
     <ClInclude Include="Timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

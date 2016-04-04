@@ -130,6 +130,12 @@
     <Filter Include="Header Files\Renderers\Vulkan\Pipeline">
       <UniqueIdentifier>{5d848d02-a4f6-43af-a267-61cdeb966544}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Renderers\DirectX\Objects\Standard_Assets">
+      <UniqueIdentifier>{4e435223-5ad6-4430-a6b2-508ddaef7396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers\DirectX\Objects\Primative_Shapes">
+      <UniqueIdentifier>{8669a298-8af0-4794-b9eb-e4e3998275fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMain.cpp">
@@ -141,6 +147,9 @@
     <ClCompile Include="Timer.cpp">
       <Filter>Source Files\Renderer\Timer</Filter>
     </ClCompile>
+    <ClCompile Include="DirectX_Renderer.cpp">
+      <Filter>Source Files\Renderer\DirectX\Pipeline</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DirectX_Rendering_Base.h">
@@ -148,6 +157,12 @@
     </ClInclude>
     <ClInclude Include="Timer.h">
       <Filter>Header Files\Renderers\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX_Renderer.h">
+      <Filter>Header Files\Renderers\DirectX\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Header_File_Linker.h">
+      <Filter>Header Files\Renderers\DirectX</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

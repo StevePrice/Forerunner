@@ -28,7 +28,7 @@ public:
 	// Base Methods For Window Creation, Resizing, Updating, Rendering, Call Backs, and Event Handling
 	virtual bool InitateWindow();
 	virtual void ResizeWindow();
-	virtual LRESULT HandleMessages(HWND hWindow, UINT currentMessage, WPARAM wParam, LPARAM lParam);
+	virtual LRESULT CALLBACK HandleMessages(HWND hWindow, UINT currentMessage, WPARAM wParam, LPARAM lParam);
 
 	// Update and Render Function
 	virtual void Update(float deltaTime) = 0;
