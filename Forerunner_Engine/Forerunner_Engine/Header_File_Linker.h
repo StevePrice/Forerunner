@@ -24,6 +24,8 @@ Description: Header file for all include files for DirectX and Win32
 
 // D3D11 Render Version Library
 #include <d3d11.h>
+#include <d3d12.h>
+
 
 // Helper Libraries
 #include <DirectXMath.h>
